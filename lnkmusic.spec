@@ -45,7 +45,6 @@ install -d %{buildroot}/%{_datadir}/applications
 cat > %{buildroot}/%{_datadir}/applications/%{name}.desktop << EOF
 [Desktop Entry]
 Version=1.0
-Encoding=UTF-8
 Name=lnkmusic
 Comment=A nice frontend for MPD
 Exec=%{_bindir}/lnkmusic
