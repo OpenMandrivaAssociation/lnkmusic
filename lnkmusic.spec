@@ -1,11 +1,11 @@
 Summary:	A new and cool interface for MPD
 Name:		lnkmusic
-Version:	0.1.12
+Version:	0.2.22
 Release:	%mkrel 1
 License:	GPL
 Group:		Sound
 URL:		http://sourceforge.net/projects/lnkmusic/
-Source0:	http://downloads.sourceforge.net/lnkmusic/%{name}-%{version}.tar.bz2
+Source0:	http://downloads.sourceforge.net/lnkmusic/%{name}-%{version}.tar.gz
 BuildRequires:	gambas2-devel >= 1.9.48
 BuildRequires:	gambas2-runtime >= 1.9.48
 BuildRequires:	gambas2-gb-qt >= 1.9.48
@@ -37,9 +37,9 @@ gba2
 install -d %{buildroot}/%{_bindir}
 install -p lnkmusic.gambas %{buildroot}/%{_bindir}/lnkmusic
 install -d %{buildroot}/%{_iconsdir}/hicolor/{16x16,32x32,48x48}/apps
-install -p .icon/16.png %{buildroot}/%{_iconsdir}/hicolor/16x16/apps/lnkmusic.png
-install -p .icon/32.png %{buildroot}/%{_iconsdir}/hicolor/32x32/apps/lnkmusic.png
-install -p .icon/48.png %{buildroot}/%{_iconsdir}/hicolor/48x48/apps//lnkmusic.png
+convert Images/logo2.png -resize 16x16 %{buildroot}/%{_iconsdir}/hicolor/16x16/apps/lnkmusic.png
+convert Images/logo2.png -resize 32x32 %{buildroot}/%{_iconsdir}/hicolor/32x32/apps/lnkmusic.png
+convert Images/logo2.png -resize 48x48 %{buildroot}/%{_iconsdir}/hicolor/48x48/apps/lnkmusic.png
 install -d %{buildroot}/%{_datadir}/applications
 
 cat > %{buildroot}/%{_datadir}/applications/%{name}.desktop << EOF
