@@ -15,6 +15,7 @@ BuildRequires:	gambas2-gb-net >= 1.9.48
 BuildRequires:	gambas2-gb-qt-ext >= 1.9.48
 BuildRequires:	gambas2-gb-settings >= 1.9.48
 BuildArch:	noarch
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
