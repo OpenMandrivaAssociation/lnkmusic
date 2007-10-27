@@ -1,7 +1,7 @@
 Summary:	A new and cool interface for MPD
 Name:		lnkmusic
 Version:	0.2.22
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Sound
 URL:		http://sourceforge.net/projects/lnkmusic/
@@ -19,7 +19,7 @@ BuildRequires:	gambas2-gb-draw >= 1.9.48
 Requires:	gambas2-gb-qt-ext >= 1.9.48
 Requires:	gambas2-gb-form >= 1.9.48
 Requires:	gambas2-gb-settings >= 1.9.48
-Requires:	gambas2-gb-iamge >= 1.9.48
+Requires:	gambas2-gb-image >= 1.9.48
 Requires:	gambas2-gb-net >= 1.9.48
 Requires:	gambas2-gb-draw >= 1.9.48
 BuildArch:	noarch
