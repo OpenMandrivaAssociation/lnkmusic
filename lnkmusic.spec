@@ -24,7 +24,6 @@ Requires:	gambas2-gb-net >= 1.9.48
 Requires:	gambas2-gb-draw >= 1.9.48
 BuildArch:	noarch
 ExclusiveArch:	%{ix86} noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This is a new and cool interface for MPD
