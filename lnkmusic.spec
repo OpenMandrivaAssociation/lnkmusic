@@ -6,7 +6,7 @@ License:	GPL
 Group:		Sound
 URL:		http://sourceforge.net/projects/lnkmusic/
 Source0:	http://downloads.sourceforge.net/lnkmusic/%{name}-%{version}.tar.gz
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:	gambas2-devel >= 1.9.48
 BuildRequires:	gambas2-runtime >= 1.9.48
 BuildRequires:	gambas2-gb-qt >= 1.9.48
