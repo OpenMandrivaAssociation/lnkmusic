@@ -4,7 +4,7 @@ Version:	0.2.22
 Release:	%mkrel 6
 License:	GPL
 Group:		Sound
-URL:		http://sourceforge.net/projects/lnkmusic/
+URL:		https://sourceforge.net/projects/lnkmusic/
 Source0:	http://downloads.sourceforge.net/lnkmusic/%{name}-%{version}.tar.gz
 BuildRequires:	imagemagick
 BuildRequires:	gambas2-devel >= 1.9.48
