@@ -1,7 +1,7 @@
 Summary:	A new and cool interface for MPD
 Name:		lnkmusic
 Version:	0.2.22
-Release:	%mkrel 6
+Release:	7
 License:	GPL
 Group:		Sound
 URL:		https://sourceforge.net/projects/lnkmusic/
